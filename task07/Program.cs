@@ -8,10 +8,12 @@
 
 */
 
-Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите трехзначное число число: ");
 
 int number = Convert.ToInt32(Console.ReadLine());
 
-int result = number % 10;
-
-Console.WriteLine(result);
+if (number > 99 && number <= 999) {
+    Console.WriteLine(number % 10);
+} else {
+    Console.WriteLine("Введите корректное число!");
+};
