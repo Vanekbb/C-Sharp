@@ -9,9 +9,9 @@
 
 Console.WriteLine("Введите число дня недели: ");
 
-int firstNumber = Convert.ToInt32(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
-switch (firstNumber) {
+switch (number) {
     case 1:
     Console.WriteLine("Понедельник.");
     break;
