@@ -17,6 +17,8 @@ int SecondNumber = Convert.ToInt32(Console.ReadLine());
 
 if (firstNumber > SecondNumber) {
     Console.WriteLine("Большее число: " + firstNumber);
+    Console.WriteLine("Меньшее число: " + SecondNumber);
 } else {
     Console.WriteLine("Большее число: " + SecondNumber);
+    Console.WriteLine("Меньшее число: " + firstNumber);
 };
