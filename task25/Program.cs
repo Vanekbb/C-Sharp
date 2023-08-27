@@ -13,11 +13,14 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-int result = numberA;
+int Exponentiation(int firstNumber, int secondNumber) {
+  int result = numberA;
 
-for (int i = 1; i < numberB; i++) {
+    for (int i = 1; i < numberB; i++) {
     result = result * numberA;
 }
+    return result;
+}
 
-Console.WriteLine(result);
+Console.WriteLine(Exponentiation(numberA, numberB));
 //Console.WriteLine(Math.Pow(numberA, numberB));
