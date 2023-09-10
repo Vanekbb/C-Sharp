@@ -56,7 +56,6 @@ void Print2DArray(int[,] array) {
 int[,] Arranges2DArray(int[,] array) {
     int rows = array.GetLength(0);
     int cols = array.GetLength(1);
-    Console.WriteLine(cols - 1);
     int temporary = 0;
 
     for (int i = 0; i < rows; i++) {
